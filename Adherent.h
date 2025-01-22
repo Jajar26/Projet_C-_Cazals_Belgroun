@@ -3,7 +3,6 @@
 #include <iostream>
 #include "Livre.h"
 #include "Bibliotheque.h"
-#include "vecteur.h"  
 
 class Adherent {
     private :
