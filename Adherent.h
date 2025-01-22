@@ -3,7 +3,7 @@
 #include <iostream>
 #include "Livre.h"
 #include "Bibliotheque.h"
-#include "vecteur.h"  // Include the custom Vecteur template
+#include "vecteur.h"  
 
 class Adherent {
     private :
@@ -11,7 +11,7 @@ class Adherent {
         std::string prenom;
         int NumeroAdherent;
         Bibliotheque* maBiblio;
-        Livre* pLivre;  // Use the Vecteur template instead of std::vector
+        Livre* pLivre; 
         
     public : 
 
